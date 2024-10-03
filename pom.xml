@@ -74,7 +74,7 @@
         <commons-math3.version>3.6.1</commons-math3.version>
         <caffeine.version>2.9.3</caffeine.version>
         <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
-        <java-util.version>2.4.0</java-util.version>
+        <java-util.version>2.13.0</java-util.version>
         
         <antlr4.version>4.10.1</antlr4.version>
         <snakeyaml.version>2.2</snakeyaml.version>
@@ -965,7 +965,7 @@
                             </filter>
                         </filters>
                         <transformers>
-                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                         </transformers>
                     </configuration>
                 </plugin>
